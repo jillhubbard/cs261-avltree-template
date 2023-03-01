@@ -159,7 +159,7 @@ class TestAVLTree(unittest.TestCase):
     #     child = AVLTree(1)
     #     avl_tree.insert(left)
     #     avl_tree.insert(child)
-    #     elf.assertEqual(left, avl_tree.left)
+    #     self.assertEqual(left, avl_tree.left)
     #     self.assertEqual(child, avl_tree.left.left)
     #     self.assertEqual(3, avl_tree.height)
     #     self.assertEqual(2, avl_tree.left.height)
