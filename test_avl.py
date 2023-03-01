@@ -640,7 +640,7 @@ class TestAVLTree(unittest.TestCase):
 
     # def test_insert_three_level_tree_right_heavy(self):
     #     """
-    #     Test 26: Inserting a key results in a left imbalance and a right rotation
+    #     Test 29: Inserting a key results in a left imbalance and a right rotation
 
     #          10                
     #         /  \            

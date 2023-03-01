@@ -60,7 +60,6 @@ class AVLTree:
            return self.right.search(key_to_find)
         else:
             return None
-        
   
     def delete(self, key_to_delete):
         if key_to_delete < self.key:
