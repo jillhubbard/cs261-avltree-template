@@ -159,11 +159,11 @@ class TestAVLTree(unittest.TestCase):
     #     child = AVLTree(1)
     #     avl_tree.insert(left)
     #     avl_tree.insert(child)
-    #     # self.assertEqual(left, avl_tree.left)
-    #     # self.assertEqual(child, avl_tree.left.left)
-    #     # self.assertEqual(3, avl_tree.height)
-    #     # self.assertEqual(2, avl_tree.left.height)
-    #     # self.assertEqual(1, avl_tree.left.left.height)
+    #     elf.assertEqual(left, avl_tree.left)
+    #     self.assertEqual(child, avl_tree.left.left)
+    #     self.assertEqual(3, avl_tree.height)
+    #     self.assertEqual(2, avl_tree.left.height)
+    #     self.assertEqual(1, avl_tree.left.left.height)
 
     # def test_balance_factor_insert_two_smaller_left(self):
     #     """
@@ -183,18 +183,18 @@ class TestAVLTree(unittest.TestCase):
     #     child = AVLTree(1)
     #     avl_tree.insert(left)
     #     avl_tree.insert(child)
-    #     # self.assertEqual(left, avl_tree.left)
-    #     # self.assertEqual(child, avl_tree.left.left)
-    #     # self.assertEqual(2, avl_tree.balance_factor)
-    #     # self.assertEqual(1, avl_tree.left.balance_factor)
-    #     # self.assertEqual(0, avl_tree.left.left.balance_factor)
+    #     self.assertEqual(left, avl_tree.left)
+    #     self.assertEqual(child, avl_tree.left.left)
+    #     self.assertEqual(2, avl_tree.balance_factor)
+    #     self.assertEqual(1, avl_tree.left.balance_factor)
+    #     self.assertEqual(0, avl_tree.left.left.balance_factor)
 
     # #********************************************
     # # !!!!!IMPORTANT!!!!!
     # #**********************************************
     # # COMMENT OUT THE FOLLOWING LINES IN THIS FILE BEFORE CONTINUING
-    # # 160-164
-    # # 184-188
+    # # 162-166
+    # # 186-190
     # #************************************************
    
     # def test_return_root_insert_two_smaller(self):
